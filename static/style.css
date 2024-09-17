@@ -1,0 +1,84 @@
+.logo{
+    width: 100px;
+    height: 50px;
+    text-align: left;
+}
+.welcome{
+    text-align: center;
+}
+.catalog-line{
+    text-align: center;
+}
+.hod , .tee , .acs{
+    padding-left: 50px;
+    font-style: normal;
+}
+.mainimg{
+    width: 400px;
+    height: 500px;
+    padding-left: 520px;
+    padding-top: 40px;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: Poppins;
+}
+.header-line{
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+}
+    
+
+.header-line button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 25px; 
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.buttons{
+    margin-left: 1000px;
+}
+.h_heading{
+    text-align: center;
+}
+
+
+
+.product-line {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 100px; 
+}
+.hoodie1_card,
+.hoodie2_card,
+.hoodie3_card{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background: white;
+}
+
+.hoodie1_card img,
+.hoodie2_card img,
+.hoodie3_card img{
+    display: block;
+    width: 100%;
+}
+
+.home{
+    margin-left: 1200px;
+}
+
