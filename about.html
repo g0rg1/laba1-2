@@ -11,34 +11,31 @@
     <title>Brand clothes</title>
 </head>
 <body>
-    <header class="header-line">
-        <a href="index.html">
-            <img class="logo" src="images/logo.png">
-        </a>
-        <div class="buttons">
-            <a href="signup.html">
-                <button>Sign in</button>
-                    </a>
-                    <a href="login.html">
-                <button>Log in</button>
-                    </a>
-                <a href="about.html">
-                <button>About us</button>
-                </a>
-        </div>
-    </header>
+    <div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
     <h2 class="welcome">About us</h2>
-    <p class="about_p">Founded in 1889, Carhartt has established itself as a leading American brand renowned for high-quality workwear. With a legacy rooted in craftsmanship and durability, Carhartt designs clothing that meets the needs of hardworking individuals across various industries.
+    <p class="about_p">Founded in 1889, Carhartt has established itself as a leading American brand renowned for high-quality workwear.
+                    With a legacy rooted in craftsmanship and durability, Carhartt designs clothing that meets the needs of hardworking
+                    individuals across various industries.
+                    From rugged jackets to reliable pants and accessories, each product is crafted to withstand the toughest conditions 
+                    while providing comfort and style. Carhartt's commitment to quality has made it a trusted choice for professionals, 
+                    outdoor enthusiasts, and fashion-forward individuals alike.
+                    At Carhartt, we believe in the strength of hard work. Our products are designed not just for the job site, but for 
+                    everyday life. Join us in celebrating a culture of resilience and authenticity.
+    </p>
 
-        From rugged jackets to reliable pants and accessories, each product is crafted to withstand the toughest conditions while providing comfort and style. Carhartt's commitment to quality has made it a trusted choice for professionals, outdoor enthusiasts, and fashion-forward individuals alike.
-        
-        At Carhartt, we believe in the strength of hard work. Our products are designed not just for the job site, but for everyday life. Join us in celebrating a culture of resilience and authenticity.</p>
-        <img src="images/about-png.jpg" class="mainimg">
+<img src="images/about-png.jpg" class="mainimg">
     
     
-    <h2 class="welcome">Contacts</h2>
+<h2 class="welcome">Contacts</h2>
 
-    <div class = "contacts">
+<div class = "contacts">
     <i class="fa-regular fa-envelope"></i> 52@gmail.com
     <br>
     <i class="fa-solid fa-phone"></i> +7 (952) 812

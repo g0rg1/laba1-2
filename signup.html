@@ -10,22 +10,16 @@
     <title>Brand clothes</title>
 </head>
 <body>
-    <header class="header-line">
-        <a href="index.html">
-            <img class="logo" src="images/logo.png">
-        </a>
-        <div class="buttons">
-            <a href = "signup.html">
-                <button>Sign in</button>
-            </a>
-            <a href="login.html">
-                <button>Log in</button>
-            </a>
-            <a href="about.html">
-                <button>About us</button>
-            </a>
-    </div>
-    </header>
+    <div id="header"></div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+    </script>
+
     <main>
     <h1>Sign In</h1>
 <form>

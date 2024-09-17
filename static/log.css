@@ -3,17 +3,25 @@
     height: 50px;
     text-align: left;
 }
+.basket-logo{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
 .welcome{
     text-align: center;
     margin-top: 10px
 }
+
 .catalog-line{
     text-align: center;
 }
+
 .hod , .tee , .acs{
     padding-left: 50px;
     font-style: normal;
 }
+
 .mainimg{
     width: 400px;
     height: 500px;
@@ -21,19 +29,21 @@
     padding-top: 40px;
     display: block;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
 body {
     font-family: Poppins;
 }
+
 .header-line{
     display: flex; 
     align-items: center; 
-    padding: 10px;
+    justify-content: space-between;
 }
-    
 
 .header-line button{
     display: inline-block;
@@ -46,9 +56,16 @@ body {
     text-align: center; 
     cursor: pointer; 
     transition: background-color 0.3s; 
+    margin-left: 10px;
 }
+
 .buttons{
-    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.h_heading{
+    text-align: center;
 }
 
 form {
@@ -59,6 +76,7 @@ form {
     max-width: 400px;
     margin: auto;
 }
+
 fieldset {
     border: 1px solid #ccc;
     padding: 10px;
@@ -68,6 +86,7 @@ label {
     display: block;
     margin: 10px 0 5px;
 }
+
 input {
     width: 95%;
     padding: 8px;
@@ -75,6 +94,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 main button {
     padding: 10px;
     background-color: black;
@@ -88,6 +108,7 @@ main button {
     font-size: larger;
     margin-left: 120px;
 }
+
 h1{
     text-align: center;
 }
