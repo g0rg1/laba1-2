@@ -3,37 +3,49 @@
     height: 50px;
     text-align: left;
 }
+.basket-logo{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
 .welcome{
     text-align: center;
     margin-top: 10px
 }
+
 .catalog-line{
     text-align: center;
 }
+
 .hod , .tee , .acs{
     padding-left: 50px;
     font-style: normal;
 }
+
+.main_image_container{
+    margin-top: 50px;
+}
 .mainimg{
+    display: block;
+    margin: 0 auto;
     width: 400px;
     height: 500px;
-    padding-left: 520px;
-    padding-top: 40px;
-    display: block;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
 body{
     font-family: Poppins;
 }
+
 .header-line{
     display: flex; 
     align-items: center; 
-    padding: 10px;
+    justify-content: space-between;
 }
-    
 
 .header-line button{
     display: inline-block;
@@ -46,10 +58,14 @@ body{
     text-align: center; 
     cursor: pointer; 
     transition: background-color 0.3s; 
+    margin-left: 10px;
 }
+
 .buttons{
-    margin-left: 1000px;
+    display: flex;
+    align-items: center;
 }
+
 .h_heading{
     text-align: center;
 }
@@ -86,4 +102,23 @@ body{
     margin-left: 20px;
     margin-top: 50px;
 }
-
+.cookie-notice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: none; 
+}
+.cookie-notice button{
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
